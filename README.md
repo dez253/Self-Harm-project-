@@ -1,6 +1,6 @@
 Problem Statement: Develop a program to detect and prevent self-harm behaviour
 Sub-Problems: Depression, Anxiety and Trauma
-Sub-Solution : Seek profession help, develop a safety plan and reach out to a support network.
+Sub-Solution : Seeking Help, develop a safety plan , joining up with a support network
 User input :
 •	Obtain user input to gather information about their emotions and mental state
 •	Analyze the input to identify potential triggers for self-harm
@@ -8,7 +8,8 @@ User input :
 •	userInput(string): stores the input provided by the user.
 •	Triggers(list): stores the identified triggers for self-harm.
 •	Is harmful(Boolean): indicates if the user input contains harmful content
-FUNCTIONS FOR USER INPUT
+
+FUNCTIONS 
 #The below functions show how the application shall use userinput< analyses it for potential triggers of self-harm and returns a Boolean value indication if the input contains harmful content:
 def detect_self_harm(user_input):
 triggers = [“self-harm”, “suicide,”hurt myself, “cutting, “end it all”]# example of the list of triggers
@@ -81,10 +82,10 @@ mental_state = "Low"
 support_message = ""
 
 # Check mental state and provide appropriate support
-if mental_state.lower() == "suicidal":
+if mental_state.lower() == "critical":
 support_message = "I'm really sorry to hear that you're feeling this way. It's important to reach out to a mental health professional or a helpline immediately. They can provide you with the support you need."
 
-elif mental_state.lower() == "depressed":
+elif mental_state.lower() == "Deadly":
 support_message = "I'm here for you. It's important to remember that you don't have to go through this alone. Consider talking to a mental health professional or a trusted person in your life. They can help you navigate through these difficult emotions."
 
 else:
